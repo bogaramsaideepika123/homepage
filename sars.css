@@ -1,0 +1,182 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    color: wheat;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+.left {
+    height: 50px;
+    width: 300px;
+}
+
+.head-logo {
+    height: 60px;
+    width: 150px;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.right {
+    font-size: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    color: white;
+
+}
+
+.right-a {
+    color: red;
+}
+
+.right1:hover {
+    color: red;
+}
+
+.section {
+    position: relative;
+
+}
+
+.hero-img {
+    width: 100%;
+    padding-top: 92px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.img-h1 {
+    color: white;
+    font-size: 50px;
+    padding: 0;
+}
+
+.img-h2 {
+    color: red;
+    font-size: 50px;
+}
+
+.img-p {
+    font-size: 20px;
+    color: white;
+}
+
+.img-but {
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.section1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 40px;
+    width: 600px;
+}
+
+.section1 img {
+    height: 400px;
+    padding-left: 80px;
+
+
+}
+
+.section1 h1 {
+    color: black;
+    font-size: 30px;
+    width: 800px;
+
+}
+
+.section1 p {
+    color: rgb(39, 18, 18);
+    font-size: 20px;
+    width: 800px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.digi-button {
+    background-color: white;
+    height: 20px;
+    width: 200px;
+    color: red;
+    border-radius: none;
+    border: none;
+    font-size: 20px;
+}
+
+.digi-button:hover {
+    color: black;
+}
+
+.box {
+    background-color: orangered;
+    width: 1500px;
+
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    row-gap: 40px;
+    column-gap: 40px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.box1 {
+    background-color: orangered;
+    padding: 20px;
+    height: 200px;
+}
+
+.box1:hover {
+    background-color: white;
+    color: black;
+}
+
+.box1 h1 {
+    font-size: 20px;
+}
+
+.box1 p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: row;
+}
