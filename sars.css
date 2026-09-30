@@ -145,7 +145,7 @@ body {
 
 .box {
     background-color: orangered;
-    width: 1500px;
+    width: 1600px;
 
 }
 
@@ -170,6 +170,11 @@ body {
     width: auto;
 }
 
+.box1-img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .box1:hover {
     background-color: white;
     color: black;
@@ -177,7 +182,7 @@ body {
 
 .box1 h1 {
     font-size: 20px;
-    margin: 20p;
+    margin: 20px;
 }
 
 .box1 p {
@@ -197,7 +202,7 @@ body {
     background-color: antiquewhite;
     padding-bottom: 40px;
     padding-top: 20px;
-    margin-top: 0;
+    margin-top: -40px;
 
 }
 
@@ -452,10 +457,10 @@ body {
 
 .footer-top {
     background-color: black;
-    
+
 }
 
-.footer-top1{
+.footer-top1 {
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -478,6 +483,7 @@ body {
     gap: 20px;
 
 }
+
 .fouthpage-img {
     height: 70px;
     width: 40px;
@@ -486,53 +492,58 @@ body {
     color: red;
 
 }
-.fouthpage-text{
+
+.fouthpage-text {
     color: white;
     font-size: 20px;
 }
 
 .links {
-   color: white;
-   margin-right: 300px;
-   margin-top: 50px;
-   margin-left: 50px;
+    color: white;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
-.links h2{
+.links h2 {
     color: white;
 
 }
-.linksp{
+
+.linksp {
     color: wheat;
     line-height: 20px;
 }
-.connect{
+
+.connect {
     width: 35%;
     margin-top: 50px;
 
 }
 
-.connect h2{
-    color: white;
-    margin-bottom: 10px;
-}
-.connect p{
+.connect h2 {
     color: white;
     margin-bottom: 10px;
 }
 
-.services{
+.connect p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.services {
     margin-top: 20px;
     background-color: black;
 }
-.services h1{
+
+.services h1 {
     color: red;
     font-size: 20px;
     margin-left: 100px;
     text-decoration: underline;
 }
 
-.services-columns{
+.services-columns {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
@@ -541,24 +552,27 @@ body {
     margin-bottom: 30px;
 }
 
-.services-columns p{
+.services-columns p {
     color: white;
     font-size: 15px;
     line-height: 30px;
     margin-bottom: 10px;
-    
+
 }
-.services-columns p:hover{
+
+.services-columns p:hover {
     text-decoration: underline;
 }
-.best h1{ 
-    color:red;
+
+.best h1 {
+    color: red;
     margin-left: 100px;
     font-size: 20px;
     margin-bottom: 10px;
-    
+
 }
-.best p{
+
+.best p {
     color: white;
     margin-left: 100px;
     margin-right: 250px;
